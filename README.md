@@ -172,4 +172,3 @@ A: The list is updated **as needed or when new domains are discovered/reported**
 ---
 
 **Protect your privacy. Keep your smart home truly smart.**
-```
