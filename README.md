@@ -14,7 +14,7 @@ A privacy-focused DNS blocklist for AdGuard Home (and compatible platforms) dedi
 ## How To Use with AdGuard Home
 
 1. **Copy the raw URL** for the blocklist file in this repository (e.g.  
-   `https://raw.githubusercontent.com/<your-username>/SmartHouse-Blocklist/main/smarthouse-blocklist.txt`).
+   `https://raw.githubusercontent.com/uberlerd/SmartHouse-Blocklist/main/smarthouse-blocklist.txt`).
 
 2. **Open your [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) dashboard**  
    Go to **Filters → DNS blocklists**.
