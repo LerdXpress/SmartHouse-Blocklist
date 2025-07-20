@@ -1,0 +1,143 @@
+! ================= Amazon Devices (Fire TV, Alexa, Ring, etc.) =================
+||device-messaging-na.amazon.com^
+||devicemessaging.us-east-1.amazon.com^
+||mobileanalytics.us-east-1.amazonaws.com^
+||aax-eu.amazon-adsystem.com^
+||mads-eu.amazon.com^
+||fls-*.amazon.com^
+
+! ================= Google/Android/Chromecast/YouTube (Telemetry & Tracking) =================
+||google-analytics.com^
+||ssl.google-analytics.com^
+||pagead2.googlesyndication.com^
+||adservice.google.com^
+||tracking-protection.cdn.mozilla.net^
+||doubleclick.net^
+||yt3.ggpht.com^
+||sb-ssl.google.com^
+! NOTE: Removed ||clients2.google.com^ and ||firebaseio.com^ – required for Chromecast, Android, and Google IoT cloud features.
+! Do not block firebaseio.com or clients2.google.com to avoid breaking Google Home, Chromecast, and some other smart devices.
+
+! ================= Apple (iOS, macOS, Home, iCloud, TV) =================
+||xp.apple.com^
+||weather-analytics-events.apple.com^
+||metrics.apple.com^
+||api.smoot.apple.com^
+
+! ================= Microsoft (Windows, Xbox, Bing, MSN, Office) =================
+||vortex.data.microsoft.com^
+||settings-win.data.microsoft.com^
+||telemetry.microsoft.com^
+||watson.telemetry.microsoft.com^
+||statsfe2.ws.microsoft.com^
+||pipe.aria.microsoft.com^
+||experimentation.xboxlive.com^
+||prod.telemetry.microsoft.com^
+||xboxexperiencesprod.experimentation.xboxlive.com^
+||xboxexperiencesprod.xboxlive.com^
+
+! ================= Facebook / Meta (Instagram, WhatsApp, Oculus) =================
+||graph.facebook.com^
+||app-measurement.com^
+||connect.facebook.net^
+||pixel.facebook.com^
+||facebook.net^
+||fbcdn.net^
+||facebookmail.com^
+
+! ================= Roku TVs/Players =================
+||track.sr.roku.com^
+||traces.sr.roku.com^
+||scribe.logs.roku.com^
+||giga.logs.roku.com^
+||amarillo.sb.roku.com^
+||p.ads.roku.com^
+
+! ================= Samsung Smart TVs & SmartThings =================
+||samsungacr.com^
+||samsungrm.net^
+||syncplusconfig.s3.amazonaws.com^
+
+! ================= LG Smart TVs / ThinQ (Tracking/Analytics) =================
+||lgad.cjpowercast.com^
+||ad.lgappstv.com^
+||alphonso.tv^
+
+! ================= Vizio TVs (SmartCast) =================
+||analytics.smartcast.tv^
+||viziosmartcast.tv^
+
+! ================= Sony TVs (Android TV) =================
+||tv.sonymobile.com^
+! NOTE: Removed ||sony.net^ – Do not block whole domain. If needed, use ||analytics.sony.net^ or similar subdomains only.
+
+! ================= Philips Hue/Lighting =================
+! NOTE: Removed ||meethue.com^ – Blocking top-level domain can break Smart Home functionality.
+! If analytics blocking needed, block only subdomains like ||analytics.meethue.com^
+
+! ================= Wyze Cameras & Smart Devices =================
+||data.flurry.com^
+||segment.com^
+||braze.com^
+! NOTE: Removed ||firebaseio.com^ – Required for real-time features on many smart devices including Wyze.
+
+! ================= Ecobee Thermostats & Smart Devices =================
+||analytics.amazonaws.com^
+
+! ================= Reolink Cameras (Telemetry & Tracking Only) =================
+||ads.reolink.com^
+||crashlytics.com^
+||segment.com^
+||braze.com^
+! NOTE: Removed ||track.reolink.com^ and ||analytics.reolink.com^ due to potential disruptions in firmware and push notification services.
+
+! ================= Arlo, Blink, TP-Link/Kasa, Belkin/Wemo, iRobot, Tado, Honeywell (Shared IoT Analytics Vendors) =================
+||data.flurry.com^
+||segment.com^
+||braze.com^
+
+! ================= General IoT/Smart Appliance Analytics Providers =================
+||amplitude.com^
+||newrelic.com^
+||scorecardresearch.com^
+
+! ================= Automotive Telematics & Tracking (Analytics Only—Not Core Services) =================
+||metrics.tesla.com^
+||fleet.teslamotors.com^
+||telemetry.bmw.com^
+||onstaranalytics.onstar.com^
+||metrics.ford.com^
+||telemetry.volkswagen.com^
+||metrics.toyota.com^
+||metrics.hyundai.com^
+
+! ================= Smart Appliances (Telemetry/Analytics ONLY) =================
+||analytics.whirlpool.com^
+||metrics.geappliances.com^
+||analytics.lg.com^
+||analytics.samsung.com^
+||analytics.bosch-home.com^
+||analytics.miele.com^
+||metrics.panasonic.com^
+||data.electrolux.com^
+
+! ================= Browsers & Linux/OS Telemetry =================
+||incoming.telemetry.mozilla.org^
+||telemetry.mozilla.org^
+||firefox.settings.services.mozilla.com^
+||update.googleapis.com^
+||chrome.googleapis.com^
+||telemetrics.clearlinux.org^
+||telemetry.canonical.com^
+||metrics.opensuse.org^
+||telemetry.opensuse.org^
+
+! ================= General Tracking & Analytics Vendors =================
+||data.flurry.com^
+||segment.com^
+||braze.com^
+||crashlytics.com^
+||amplitude.com^
+||newrelic.com^
+||scorecardresearch.com^
+||chartboost.com^
