@@ -5,6 +5,7 @@
 ||aax-eu.amazon-adsystem.com^
 ||mads-eu.amazon.com^
 ||fls-*.amazon.com^
+||device-metrics-us.amazon.com^
 
 ! ================= Google/Android/Chromecast/YouTube (Telemetry & Tracking) =================
 ||google-analytics.com^
@@ -14,6 +15,8 @@
 ||tracking-protection.cdn.mozilla.net^
 ||doubleclick.net^
 ||sb-ssl.google.com^
+||googleads.g.doubleclick.net^
+||cert-test.sandbox.google.com^
 
 ! ================= Apple (iOS, macOS, Home, iCloud, TV) =================
 ||xp.apple.com^
@@ -49,16 +52,26 @@
 ||giga.logs.roku.com^
 ||amarillo.sb.roku.com^
 ||p.ads.roku.com^
+||logs.roku.com^
+||ravm.tv^
 
 ! ================= Samsung Smart TVs & SmartThings =================
 ||samsungacr.com^
 ||samsungrm.net^
 ||syncplusconfig.s3.amazonaws.com^
+||samsungads.com^
+||gamespromotion.samsungcloudsolution.com^
+||notice.samsungcloudsolution.com^
+||noticecdn.samsungcloudsolution.com^
+||noticefile.samsungcloudsolution.com^
 
 ! ================= LG Smart TVs / ThinQ (Tracking/Analytics) =================
 ||lgad.cjpowercast.com^
 ||ad.lgappstv.com^
 ||alphonso.tv^
+||ibs.lgappstv.com^
+||ibis.lgappstv.com^
+||lgsmartad.com^
 
 ! ================= Vizio TVs (SmartCast) =================
 ||analytics.smartcast.tv^
@@ -66,17 +79,15 @@
 
 ! ================= Sony TVs (Android TV) =================
 ||tv.sonymobile.com^
-! NOTE: Removed ||sony.net^ – Do not block whole domain. If needed, use ||analytics.sony.net^ or similar subdomains only.
-
-! ================= Philips Hue/Lighting =================
-! NOTE: Removed ||meethue.com^ – Blocking top-level domain can break Smart Home functionality.
-! If analytics blocking needed, block only subdomains like ||analytics.meethue.com^
+||bravia.dl.playstation.net^
+||bdcore-apr-lb.bda.ndmdhs.com^
+||tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com^
+||bravia-cfgdst-ore-pro.bda.ndmdhs.com^
 
 ! ================= Wyze Cameras & Smart Devices =================
 ||data.flurry.com^
 ||segment.com^
 ||braze.com^
-! NOTE: Removed ||firebaseio.com^ – Required for real-time features on many smart devices including Wyze.
 
 ! ================= Ecobee Thermostats & Smart Devices =================
 ||analytics.amazonaws.com^
@@ -137,3 +148,6 @@
 ||newrelic.com^
 ||scorecardresearch.com^
 ||chartboost.com^
+||vindicosuite.com^
+||smartclip.com^
+||smartclip.net^
