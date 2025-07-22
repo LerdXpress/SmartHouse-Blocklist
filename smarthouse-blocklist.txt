@@ -13,10 +13,7 @@
 ||adservice.google.com^
 ||tracking-protection.cdn.mozilla.net^
 ||doubleclick.net^
-! NOTE: Removed ||yt3.ggpht.com^ - required for Google product profile icons
 ||sb-ssl.google.com^
-! NOTE: Removed ||clients2.google.com^ and ||firebaseio.com^ – required for Chromecast, Android, and Google IoT cloud features.
-! Do not block firebaseio.com or clients2.google.com to avoid breaking Google Home, Chromecast, and some other smart devices.
 
 ! ================= Apple (iOS, macOS, Home, iCloud, TV) =================
 ||xp.apple.com^
@@ -89,7 +86,6 @@
 ||crashlytics.com^
 ||segment.com^
 ||braze.com^
-! NOTE: Removed ||track.reolink.com^ and ||analytics.reolink.com^ due to potential disruptions in firmware and push notification services.
 
 ! ================= Arlo, Blink, TP-Link/Kasa, Belkin/Wemo, iRobot, Tado, Honeywell (Shared IoT Analytics Vendors) =================
 ||data.flurry.com^
