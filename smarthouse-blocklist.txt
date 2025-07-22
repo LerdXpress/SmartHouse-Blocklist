@@ -13,7 +13,7 @@
 ||adservice.google.com^
 ||tracking-protection.cdn.mozilla.net^
 ||doubleclick.net^
-||yt3.ggpht.com^
+! NOTE: Removed ||yt3.ggpht.com^ - required for Google product profile icons
 ||sb-ssl.google.com^
 ! NOTE: Removed ||clients2.google.com^ and ||firebaseio.com^ – required for Chromecast, Android, and Google IoT cloud features.
 ! Do not block firebaseio.com or clients2.google.com to avoid breaking Google Home, Chromecast, and some other smart devices.
