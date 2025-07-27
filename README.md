@@ -158,9 +158,9 @@ Whether your home is filled with classic top brands or the latest smart gadgets,
 
 ## Example Blocklist Entries
 
-`||smarthome-telemetry.example.com^
-||smarttv-ads.vendor.net^
-||iot-tracker.vendor.com^`
+`||smarthome-telemetry.example.com^`
+`||smarttv-ads.vendor.net^`
+`||iot-tracker.vendor.com^`
 
 All rules use ABP/uBlock syntax for maximum compatibility and safety. See the full blocklist for detailed per-brand entries.
 
