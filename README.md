@@ -9,7 +9,6 @@ Take control of your connected world. The SmartHouse-Blocklist is a carefully cu
 - 🏠 Purpose-Built for Smart Homes: From TVs to thermostats, locks to lighting—every major device category is supported, with clear coverage for today's and tomorrow's leading brands.
 - 🔒 Maximum Privacy, Minimal Hassle: Blocks invasive telemetry, tracking, and ads—never core device functions or updates.
 - 🚀 Ready to Grow: Future-proofed with dedicated sections for emerging tech and new brands, so you’re always ahead of the privacy curve.
-- 💡 Universal Compatibility: Seamlessly integrates with AdGuard Home, Pi-hole, uBlock Origin/Adblock Plus, NextDNS, Technitium, and more—just one click to set up.
 - 📝 Clearly Organized, Easy to Audit: Brand-by-brand layout, helpful comments, and a transparent philosophy—making it effortless to customize, contribute, and keep your home secure.
 - 🧑‍💻 Community-Driven & Open Source: Everyone is welcome to propose new additions, report any device issues, and join a privacy-first smart home movement.
 
