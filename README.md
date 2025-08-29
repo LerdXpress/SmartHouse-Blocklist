@@ -13,8 +13,7 @@ Take control of your connected world. The SmartHouse-Blocklist is a carefully cu
 - 🧑‍💻 Community-Driven & Open Source: Everyone is welcome to propose new additions, report any device issues, and join a privacy-first smart home movement.
 
 > Try it today: Copy the blocklist URL and add it to your preferred platform!
-
-Protect your privacy.  
+ 
 Enjoy your smart home—on your terms.
 
 Want more details? Explore the brand comparison, setup guides, and contribution info below!
@@ -34,7 +33,6 @@ Want more details? Explore the brand comparison, setup guides, and contribution 
     - uBlock Origin/Adblock Plus: `Dashboard → Filter Lists → Add custom list (paste URL) → Apply changes`
     - NextDNS: `Custom Lists → Add Blocklist (paste URL)`
     - Technitium DNS Server: `Blocklist Sources → Add URL`
-    - Control D: `Custom Blocklists section → Add URL`
 3. Save and apply changes.
 4. Refresh or update blocklists in your platform to activate protection.
 5. Done! Your smart home is now protected. If you notice device issues, check the blocklist comments for troubleshooting and consider whitelisting affected domains.
@@ -146,8 +144,6 @@ Whether your home is filled with classic top brands or the latest smart gadgets,
   Use Group Management → Adlists, paste the URL, save, then update gravity.
 - NextDNS:  
   Add to Custom Lists → Blocklist.
-- Control D:  
-  Use the Custom Blocklists section.
 - Technitium DNS Server:  
   Add under Blocklist Sources.
 - Other ABP/uBlock compatible services:  
