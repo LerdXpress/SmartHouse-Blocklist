@@ -131,7 +131,7 @@ Whether your home is filled with classic top brands or the latest smart gadgets,
 2. Open your AdGuard Home dashboard.
 3. Go to Filters → DNS blocklists.
 4. Add Blocklist:  
-   - Paste the URL, name it (e.g., UberLerd’s SmartHouse Blocklist), and save.
+   - Paste the URL, name it (e.g., LerdXpress’s SmartHouse Blocklist), and save.
 5. AdGuard Home will automatically sync and keep the list updated.
 
 ---
@@ -163,7 +163,7 @@ All rules use ABP/uBlock syntax for maximum compatibility and safety. See the fu
 
 ## Changelog
 
-See [Commit History](https://github.com/uberlerd/SmartHouse-Blocklist/commits/main) for full details.
+See [Commit History](https://github.com/LerdXpress/SmartHouse-Blocklist/commits/main) for full details.
 
 ---
 
