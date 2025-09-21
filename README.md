@@ -23,7 +23,7 @@ Want more details? Explore the brand comparison, setup guides, and contribution 
 ## 🚀 Quick Start
 
 **Blocklist URL:**  
-```https://raw.githubusercontent.com/uberlerd/SmartHouse-Blocklist/main/smarthouse-blocklist.txt```
+```https://raw.githubusercontent.com/LerdXpress/SmartHouse-Blocklist/main/smarthouse-blocklist.txt```
 
 
 1. Copy the Blocklist URL above.
@@ -126,7 +126,7 @@ Whether your home is filled with classic top brands or the latest smart gadgets,
 ## How To Use with AdGuard Home
 
 1. Copy the blocklist URL:
-```https://raw.githubusercontent.com/uberlerd/SmartHouse-Blocklist/main/smarthouse-blocklist.txt```
+```https://raw.githubusercontent.com/LerdXpress/SmartHouse-Blocklist/main/smarthouse-blocklist.txt```
 
 2. Open your AdGuard Home dashboard.
 3. Go to Filters → DNS blocklists.
