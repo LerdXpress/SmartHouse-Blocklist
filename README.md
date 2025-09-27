@@ -54,26 +54,26 @@ Want more details? Explore the brand comparison, setup guides, and contribution 
 
 How does SmartHouse-Blocklist’s domain coverage stack up against the most respected DNS privacy/blocklist competitors?
 
-| Category / Example Brands¹                                     | SmartHouse Blocklist | HaGeZi IoT/SmartHome | OISD | StevenBlack | AnudeepND Smart-TV | What This Means for You                                                         |
-|---------------------------------------------------------------|:-------------------:|:--------------------:|:----:|:----------:|:------------------:|----------------------------------------------------------------------------------|
-| Smart Hubs & Assistants (Alexa, HomeKit, etc.)                | ✅                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Amazon tracking blocked; all major platforms monitored for safe tracking          |
-| TVs & Streaming (Samsung, LG, Sony, Roku)                     | ✅                   | ✅                   | ✅   | ✅         | ✅                 | Full brand-by-brand coverage.tracking/ads endpoints for ALL major TVs/devices     |
-| Gaming Consoles / TV Boxes (Xbox, PS, Nintendo)               | ✅                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Xbox telemetry included, future-ready for all consoles as analytics/ads emerge    |
-| Smart Lighting (Hue, Nanoleaf, Govee, etc.)                   | ✅                   | 🚀                   | 🚀   | 📝         | 🚫                 | Philips Hue covered, major lighting brands sectioned for tracking expansion       |
-| Thermostats / HVAC (Ecobee, Nest, Bosch, etc.)                | ✅                   | 🚀                   | 🚀   | 📝         | 🚫                 | Ecobee and key telemetry included, more added as safe analytics/tracking appear   |
-| Appliances (LG, Whirlpool, Bosch, GE, Miele)                  | ✅                   | 🚀                   | 🚀   | ⚠️         | 🚫                 | Industry leaders in list, ensures tracking-only adds, safe from breakage          |
-| Cameras & Security (Ring, Wyze, Arlo, Blink)                  | ✅                   | ✅                   | 🚀   | 🚀         | 🚫                 | Most popular cameras/doorbells already covered; category ready for expansion      |
-| Locks & Access Control (August, Yale, Nuki)                   | 🚀                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Full support structure in place.future trackers/telemetry added instantly         |
-| Lawn Robotics (Husqvarna, ECOVACS, Mammotion)                 | 🚀                   | 🚀                   | 🚀   | 📝         | 🚫                 | Section ready for latest robot mowers/garden devices as privacy domains found     |
-| Automotive / Telematics (Tesla, Ford, OnStar)                 | ✅                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Automotive telemetry entries present; quick to add as market evolves              |
-| IoT Platforms (Tuya, TP-Link, Aqara, Shelly)                  | ✅                   | ✅                   | ✅   | ✅         | 🚫                 | Platform analytics/telemetry included; ready as new vendor integrations launch    |
-| Analytics & Tracking Vendors (Google, etc.)                   | ✅                   | ✅                   | ✅   | ✅         | ⚠️                 | Tracks only known analytics/ads without blocking device-critical hosts            |
-| OS / Platform Telemetry (Apple, Microsoft)                    | ✅                   | ✅                   | ✅   | ✅         | 🚀                 | All major OS telemetry blocked; always ready for new endpoints                    |
+| Category / Example Brands¹                                     | SmartHouse Blocklist | HaGeZi IoT/SmartHome | AnudeepND Smart-TV | What This Means for You                                                         |
+|---------------------------------------------------------------|:-------------------:|:--------------------:|:------------------:|----------------------------------------------------------------------------------|
+| Smart Hubs & Assistants (Alexa, HomeKit, etc.)                | ✅                   | 🚀                   | 🚫                 | Amazon tracking blocked; all major platforms monitored for safe tracking          |
+| TVs & Streaming (Samsung, LG, Sony, Roku)                     | ✅                   | ✅                   | ✅                 | Full brand-by-brand coverage.tracking/ads endpoints for ALL major TVs/devices     |
+| Gaming Consoles / TV Boxes (Xbox, PS, Nintendo)               | ✅                   | 🚀                   | 🚫                 | Xbox telemetry included, future-ready for all consoles as analytics/ads emerge    |
+| Smart Lighting (Hue, Nanoleaf, Govee, etc.)                   | ✅                   | 🚀                   | 🚫                 | Philips Hue covered, major lighting brands sectioned for tracking expansion       |
+| Thermostats / HVAC (Ecobee, Nest, Bosch, etc.)                | ✅                   | 🚀                   | 🚫                 | Ecobee and key telemetry included, more added as safe analytics/tracking appear   |
+| Appliances (LG, Whirlpool, Bosch, GE, Miele)                  | ✅                   | 🚀                   | 🚫                 | Industry leaders in list, ensures tracking-only adds, safe from breakage          |
+| Cameras & Security (Ring, Wyze, Arlo, Blink)                  | ✅                   | ✅                   | 🚫                 | Most popular cameras/doorbells already covered; category ready for expansion      |
+| Locks & Access Control (August, Yale, Nuki)                   | 🚀                   | 🚀                   | 🚫                 | Full support structure in place.future trackers/telemetry added instantly         |
+| Lawn Robotics (Husqvarna, ECOVACS, Mammotion)                 | 🚀                   | 🚀                   | 🚫                 | Section ready for latest robot mowers/garden devices as privacy domains found     |
+| Automotive / Telematics (Tesla, Ford, OnStar)                 | ✅                   | 🚀                   | 🚫                 | Automotive telemetry entries present; quick to add as market evolves              |
+| IoT Platforms (Tuya, TP-Link, Aqara, Shelly)                  | ✅                   | ✅                   | 🚫                 | Platform analytics/telemetry included; ready as new vendor integrations launch    |
+| Analytics & Tracking Vendors (Google, etc.)                   | ✅                   | ✅                   | ⚠️                 | Tracks only known analytics/ads without blocking device-critical hosts            |
+| OS / Platform Telemetry (Apple, Microsoft)                    | ✅                   | ✅                   | 🚀                 | All major OS telemetry blocked; always ready for new endpoints                    |
 
 Legend:  
 ✅ = Covered  
-🚀 = Supported and actively monitored
-⚠️/📝 = Partial or requires extension  
+🚀 = Supported and actively monitored  
+⚠️ = Partial or requires extension  
 🚫 = Not included
 
 ¹ Examples shown. See blocklist comments for a continuously refreshed, per-brand breakdown.
