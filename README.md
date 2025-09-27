@@ -2,7 +2,7 @@
 
 **Smart Homes, No Surveillance**
 
-The SmartHouse-Blocklist is a carefully curated, zero-breakage DNS privacy solution for every smart device in your home—smart TVs, appliances, lights, thermostats, speakers, cameras, lawn robots, vehicles, etc.
+The SmartHouse-Blocklist is a carefully curated, zero-breakage DNS privacy solution for every smart device in your home. Smart TVs, appliances, lights, thermostats, speakers, cameras, lawn robots, vehicles, etc.
 
 **Why choose SmartHouse-Blocklist?**
 
@@ -11,7 +11,7 @@ The SmartHouse-Blocklist is a carefully curated, zero-breakage DNS privacy solut
 
 > Try it today: Copy the blocklist URL and add it to your preferred platform!
  
-Enjoy your smart home—on your terms.
+Enjoy your smart home.on your terms.
 
 Want more details? Explore the brand comparison, setup guides, and contribution info below!
 
@@ -44,7 +44,6 @@ Want more details? Explore the brand comparison, setup guides, and contribution 
 - Platform Compatibility
 - How To Use with AdGuard Home
 - How To Load Into Other Compatible Services
-- Example Blocklist Entries
 - Changelog
 - FAQ / Troubleshooting
 - Notes
@@ -53,34 +52,34 @@ Want more details? Explore the brand comparison, setup guides, and contribution 
 
 ---
 
-## Brand & Category Coverage — At a Glance
+## Brand & Category Coverage . At a Glance
 
 How does SmartHouse-Blocklist’s domain coverage stack up against the most respected DNS privacy/blocklist competitors?
 
 | Category / Example Brands¹                                     | SmartHouse Blocklist | HaGeZi IoT/SmartHome | OISD | StevenBlack | AnudeepND Smart-TV | What This Means for You                                                         |
 |---------------------------------------------------------------|:-------------------:|:--------------------:|:----:|:----------:|:------------------:|----------------------------------------------------------------------------------|
 | Smart Hubs & Assistants (Alexa, HomeKit, etc.)                | ✅                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Amazon tracking blocked; all major platforms monitored for safe tracking          |
-| TVs & Streaming (Samsung, LG, Sony, Roku)                     | ✅                   | ✅                   | ✅   | ✅         | ✅                 | Full brand-by-brand coverage—tracking/ads endpoints for ALL major TVs/devices     |
+| TVs & Streaming (Samsung, LG, Sony, Roku)                     | ✅                   | ✅                   | ✅   | ✅         | ✅                 | Full brand-by-brand coverage.tracking/ads endpoints for ALL major TVs/devices     |
 | Gaming Consoles / TV Boxes (Xbox, PS, Nintendo)               | ✅                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Xbox telemetry included, future-ready for all consoles as analytics/ads emerge    |
 | Smart Lighting (Hue, Nanoleaf, Govee, etc.)                   | ✅                   | 🚀                   | 🚀   | 📝         | 🚫                 | Philips Hue covered, major lighting brands sectioned for tracking expansion       |
 | Thermostats / HVAC (Ecobee, Nest, Bosch, etc.)                | ✅                   | 🚀                   | 🚀   | 📝         | 🚫                 | Ecobee and key telemetry included, more added as safe analytics/tracking appear   |
 | Appliances (LG, Whirlpool, Bosch, GE, Miele)                  | ✅                   | 🚀                   | 🚀   | ⚠️         | 🚫                 | Industry leaders in list, ensures tracking-only adds, safe from breakage          |
 | Cameras & Security (Ring, Wyze, Arlo, Blink)                  | ✅                   | ✅                   | 🚀   | 🚀         | 🚫                 | Most popular cameras/doorbells already covered; category ready for expansion      |
-| Locks & Access Control (August, Yale, Nuki)                   | 🚀                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Full support structure in place—future trackers/telemetry added instantly         |
+| Locks & Access Control (August, Yale, Nuki)                   | 🚀                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Full support structure in place.future trackers/telemetry added instantly         |
 | Lawn Robotics (Husqvarna, ECOVACS, Mammotion)                 | 🚀                   | 🚀                   | 🚀   | 📝         | 🚫                 | Section ready for latest robot mowers/garden devices as privacy domains found     |
 | Automotive / Telematics (Tesla, Ford, OnStar)                 | ✅                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Automotive telemetry entries present; quick to add as market evolves              |
 | IoT Platforms (Tuya, TP-Link, Aqara, Shelly)                  | ✅                   | ✅                   | ✅   | ✅         | 🚫                 | Platform analytics/telemetry included; ready as new vendor integrations launch    |
 | Analytics & Tracking Vendors (Google, etc.)                   | ✅                   | ✅                   | ✅   | ✅         | ⚠️                 | Tracks only known analytics/ads without blocking device-critical hosts            |
 | OS / Platform Telemetry (Apple, Microsoft)                    | ✅                   | ✅                   | ✅   | ✅         | 🚀                 | All major OS telemetry blocked; always ready for new endpoints                    |
-| Emerging / Specialty Devices (Pet-tech, etc.)                 | 🚀                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Dedicated section for tomorrow’s smart tech—easy to keep your network future-proof|
+| Emerging / Specialty Devices (Pet-tech, etc.)                 | 🚀                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Dedicated section for tomorrow’s smart tech.easy to keep your network future-proof|
 
 Legend:  
 ✅ = Covered  
-🚀 = Supported and actively monitored—new trackers added quickly when safe  
+🚀 = Supported and actively monitored.new trackers added quickly when safe  
 ⚠️/📝 = Partial or requires extension  
 🚫 = Not included
 
-¹ Examples shown—see blocklist comments for a continuously refreshed, per-brand breakdown.
+¹ Examples shown.see blocklist comments for a continuously refreshed, per-brand breakdown.
 
 ---
 
@@ -89,10 +88,10 @@ Legend:
 The SmartHouse-Blocklist is meticulously curated and continuously reviewed to ensure robust compatibility and protection for:
 
 - 100+ leading smart home brands across all major categories: TVs, appliances, cameras, lighting, voice assistants, locks, sensors, hubs, and more.
-- Compatibility with the top 1000 smart home products—covering the latest connected gadgets and emerging device trends.
+- Compatibility with the top 1000 smart home products.covering the latest connected gadgets and emerging device trends.
 - Full support for global leaders such as Amazon, Google, Apple, Samsung, LG, Sony, Roku, Ecobee, Bosch, Whirlpool, Philips Hue, Wyze, and more.
 - Every major device category and vendor receives its own section, making expansion easy and keeping you protected as you add new tech.
-- **Future-proof:** If you buy a top-ranked device, odds are it's already covered—or ready to be, with just a single domain added.
+- **Future-proof:** If you buy a top-ranked device, odds are it's already covered.or ready to be, with just a single domain added.
 
 Your peace of mind:  
 Whether your home is filled with classic top brands or the latest smart gadgets, SmartHouse-Blocklist is designed to protect your privacy now and for years to come.
@@ -135,16 +134,6 @@ Whether your home is filled with classic top brands or the latest smart gadgets,
   Add the blocklist URL in your Filter Lists dashboard and apply changes.
 - Other ABP/uBlock compatible services:  
   Check platform documentation for best method of adding custom lists.
-
----
-
-## Example Blocklist Entries
-
-`||smarthome-telemetry.example.com^`
-`||smarttv-ads.vendor.net^`
-`||iot-tracker.vendor.com^`
-
-All rules use ABP/uBlock syntax for maximum compatibility and safety. See the full blocklist for detailed per-brand entries.
 
 ---
 
