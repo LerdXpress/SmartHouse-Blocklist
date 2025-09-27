@@ -10,8 +10,6 @@ The SmartHouse-Blocklist is a carefully curated, zero-breakage DNS privacy solut
 - Maximum Privacy, Minimal Hassle: Blocks invasive telemetry, tracking, and ads. Never core device functions or updates.
 
 > Try it today: Copy the blocklist URL and add it to your preferred platform!
- 
-Enjoy your smart home.on your terms.
 
 Want more details? Explore the brand comparison, setup guides, and contribution info below!
 
@@ -89,9 +87,6 @@ The SmartHouse-Blocklist is meticulously curated and continuously reviewed to en
 - Full support for global leaders such as Amazon, Google, Apple, Samsung, LG, Sony, Roku, Ecobee, Bosch, Whirlpool, Philips Hue, Wyze, and more.
 - Every major device category and vendor receives its own section, making expansion easy and keeping you protected as you add new tech.
 - **Future-proof:** If you buy a top-ranked device, odds are it's already covered.or ready to be, with just a single domain added.
-
-Your peace of mind:  
-Whether your home is filled with classic top brands or the latest smart gadgets, SmartHouse-Blocklist is designed to protect your privacy now and for years to come.
 
 ---
 
