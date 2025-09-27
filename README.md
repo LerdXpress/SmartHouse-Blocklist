@@ -39,20 +39,18 @@ Want more details? Explore the brand comparison, setup guides, and contribution 
 
 - SmartHouse Blocklist Overview
 - Quick Start
-- Brand & Category Coverage | At a Glance
+- Brand & Category Coverage
 - Industry-Leading Device & Brand Coverage
 - Platform Compatibility
 - How To Use with AdGuard Home
 - How To Load Into Other Compatible Services
 - Changelog
 - FAQ / Troubleshooting
-- Notes
-- Related Projects
 - Contributions & Feedback
 
 ---
 
-## Brand & Category Coverage . At a Glance
+## Brand & Category Coverage
 
 How does SmartHouse-Blocklist’s domain coverage stack up against the most respected DNS privacy/blocklist competitors?
 
@@ -71,15 +69,14 @@ How does SmartHouse-Blocklist’s domain coverage stack up against the most resp
 | IoT Platforms (Tuya, TP-Link, Aqara, Shelly)                  | ✅                   | ✅                   | ✅   | ✅         | 🚫                 | Platform analytics/telemetry included; ready as new vendor integrations launch    |
 | Analytics & Tracking Vendors (Google, etc.)                   | ✅                   | ✅                   | ✅   | ✅         | ⚠️                 | Tracks only known analytics/ads without blocking device-critical hosts            |
 | OS / Platform Telemetry (Apple, Microsoft)                    | ✅                   | ✅                   | ✅   | ✅         | 🚀                 | All major OS telemetry blocked; always ready for new endpoints                    |
-| Emerging / Specialty Devices (Pet-tech, etc.)                 | 🚀                   | 🚀                   | 🚀   | 🚀         | 🚫                 | Dedicated section for tomorrow’s smart tech.easy to keep your network future-proof|
 
 Legend:  
 ✅ = Covered  
-🚀 = Supported and actively monitored.new trackers added quickly when safe  
+🚀 = Supported and actively monitored
 ⚠️/📝 = Partial or requires extension  
 🚫 = Not included
 
-¹ Examples shown.see blocklist comments for a continuously refreshed, per-brand breakdown.
+¹ Examples shown. See blocklist comments for a continuously refreshed, per-brand breakdown.
 
 ---
 
@@ -156,14 +153,6 @@ A: Each platform has an “update,” “refresh,” or “reload blocklists” 
 
 **Q: How often is this blocklist updated?**  
 A: The list is updated as needed or when new domains are discovered/reported.
-
----
-
-## Notes
-
-- Device/vendor comments: Specific comments in the blocklist help with troubleshooting or custom adjustments.
-- Safe, privacy-first: Focused on blocking tracking/ad domains while minimizing disruption to core smart device features.
-- User whitelisting encouraged: If issues occur, whitelist the domain, report it, and help improve the blocklist.
 
 ---
 
