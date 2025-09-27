@@ -27,8 +27,8 @@ Want more details? Explore the brand comparison, setup guides, and contribution 
 2. Add it to your platform of choice:
     - AdGuard Home: `Filters → DNS blocklists → Add blocklist (paste URL)`
     - Pi-hole: `Group Management → Adlists → Add URL`
-    - uBlock Origin/Adblock Plus: `Dashboard → Filter Lists → Add custom list (paste URL) → Apply changes`
     - Technitium DNS Server: `Blocklist Sources → Add URL`
+    - uBlock Origin/Adblock Plus: `Dashboard → Filter Lists → Add custom list (paste URL) → Apply changes`
 3. Save and apply changes.
 4. Refresh or update blocklists in your platform to activate protection.
 5. Done! Your smart home is now protected. If you notice device issues, check the blocklist comments for troubleshooting and consider whitelisting affected domains.
