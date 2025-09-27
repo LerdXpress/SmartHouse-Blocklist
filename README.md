@@ -1,16 +1,13 @@
 # SmartHouse Blocklist
 
-**The Privacy-First Blocklist for the Modern Smart Home**
+**Smart Homes, No Surveillance**
 
-Take control of your connected world. The SmartHouse-Blocklist is a carefully curated, zero-breakage DNS privacy solution for every smart device in your home—smart TVs, appliances, lights, thermostats, speakers, cameras, lawn robots, vehicles, and beyond.
+The SmartHouse-Blocklist is a carefully curated, zero-breakage DNS privacy solution for every smart device in your home—smart TVs, appliances, lights, thermostats, speakers, cameras, lawn robots, vehicles, etc.
 
 **Why choose SmartHouse-Blocklist?**
 
-- 🏠 Purpose-Built for Smart Homes: From TVs to thermostats, locks to lighting—every major device category is supported, with clear coverage for today's and tomorrow's leading brands.
-- 🔒 Maximum Privacy, Minimal Hassle: Blocks invasive telemetry, tracking, and ads—never core device functions or updates.
-- 🚀 Ready to Grow: Future-proofed with dedicated sections for emerging tech and new brands, so you’re always ahead of the privacy curve.
-- 📝 Clearly Organized, Easy to Audit: Brand-by-brand layout, helpful comments, and a transparent philosophy—making it effortless to customize, contribute, and keep your home secure.
-- 🧑‍💻 Community-Driven & Open Source: Everyone is welcome to propose new additions, report any device issues, and join a privacy-first smart home movement.
+- Purpose-Built for Smart Homes: From TVs to thermostats, locks to lighting. Every major device category is supported, with clear coverage for today's and tomorrow's leading brands.
+- Maximum Privacy, Minimal Hassle: Blocks invasive telemetry, tracking, and ads. Never core device functions or updates.
 
 > Try it today: Copy the blocklist URL and add it to your preferred platform!
  
@@ -20,7 +17,7 @@ Want more details? Explore the brand comparison, setup guides, and contribution 
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 **Blocklist URL:**  
 ```https://raw.githubusercontent.com/LerdXpress/SmartHouse-Blocklist/main/smarthouse-blocklist.txt```
@@ -31,7 +28,6 @@ Want more details? Explore the brand comparison, setup guides, and contribution 
     - AdGuard Home: `Filters → DNS blocklists → Add blocklist (paste URL)`
     - Pi-hole: `Group Management → Adlists → Add URL`
     - uBlock Origin/Adblock Plus: `Dashboard → Filter Lists → Add custom list (paste URL) → Apply changes`
-    - NextDNS: `Custom Lists → Add Blocklist (paste URL)`
     - Technitium DNS Server: `Blocklist Sources → Add URL`
 3. Save and apply changes.
 4. Refresh or update blocklists in your platform to activate protection.
@@ -43,8 +39,8 @@ Want more details? Explore the brand comparison, setup guides, and contribution 
 
 - SmartHouse Blocklist Overview
 - Quick Start
-- Brand & Category Coverage — At a Glance
-- 🏆 Industry-Leading Device & Brand Coverage
+- Brand & Category Coverage | At a Glance
+- Industry-Leading Device & Brand Coverage
 - Platform Compatibility
 - How To Use with AdGuard Home
 - How To Load Into Other Compatible Services
@@ -88,7 +84,7 @@ Legend:
 
 ---
 
-## 🏆 Industry-Leading Device & Brand Coverage
+## Industry-Leading Device & Brand Coverage
 
 The SmartHouse-Blocklist is meticulously curated and continuously reviewed to ensure robust compatibility and protection for:
 
@@ -108,18 +104,11 @@ Whether your home is filled with classic top brands or the latest smart gadgets,
 | Platform / Blocklist           | Compatible | Syntax Supported      | Update Method | Setup Difficulty | Notes                                                                    |
 |------------------------------- |:----------:|:---------------------:|:-------------:|:----------------:|--------------------------------------------------------------------------|
 | AdGuard Home                   | ✅         | ABP/AdGuard           | Auto/Manual   | Easy             | DNS filter list, ideal match                                             |
+| Pi-hole                        | ✅         | Hosts/ABP             | Manual        | Easy             | Add as adlist, (gravity update)                                          |
+| Technitium DNS Server          | ✅         | ABP/AdGuard           | Auto          | Easy             | Blocklist Sources tab                                                    |
 | uBlock Origin                  | ✅         | ABP/uBlock            | Manual/Auto   | Easy             | Import via dashboard                                                     |
 | Adblock Plus                   | ✅         | ABP                   | Manual        | Easy             | ‘Add custom filter list’ menu                                            |
-| Pi-hole                        | ✅         | Hosts/ABP             | Manual        | Easy             | Add as adlist, (gravity update)                                          |
-| NextDNS                        | ✅         | ABP/Hosts             | Auto          | Easy             | Custom Lists → Blocklist                                                 |
-| Control D                      | ✅         | ABP/AdGuard           | Manual        | Easy             | Custom blocklists interface                                              |
-| Technitium DNS Server          | ✅         | ABP/AdGuard           | Auto          | Easy             | Blocklist Sources tab                                                    |
-| OISD Blocklist                 | ✅         | ABP/Hosts             | Auto/Manual   | Easy             | Can pair with SmartHouse for layered privacy                             |
-| StevenBlack’s Hosts            | ✅         | Hosts/ABP*            | Auto/Manual   | Easy             | Great with Pi-hole, AdGuard, etc.                                        |
-| HaGeZi IoT/SmartHome/PRO++     | ✅         | ABP/Hosts             | Auto/Manual   | Easy             | Aggressive alternative/companion list                                    |
 | Other ABP/uBlock Services      | ✅         | ABP/uBlock            | Varies        | Varies           | See your platform’s documentation                                        |
-
-*StevenBlack’s Hosts recommended mainly for DNS/blocking platforms, not direct browser extension imports.
 
 ---
 
@@ -138,14 +127,12 @@ Whether your home is filled with classic top brands or the latest smart gadgets,
 
 ## How To Load Into Other Compatible Services
 
-- uBlock Origin / Adblock Plus / AdGuard Browser Extension:  
-  Add the blocklist URL in your Filter Lists dashboard and apply changes.
 - Pi-hole:  
   Use Group Management → Adlists, paste the URL, save, then update gravity.
-- NextDNS:  
-  Add to Custom Lists → Blocklist.
 - Technitium DNS Server:  
   Add under Blocklist Sources.
+- uBlock Origin / Adblock Plus / AdGuard Browser Extension:  
+  Add the blocklist URL in your Filter Lists dashboard and apply changes.
 - Other ABP/uBlock compatible services:  
   Check platform documentation for best method of adding custom lists.
 
@@ -178,9 +165,6 @@ A: The list targets known tracking/ad domains while avoiding those needed for co
 **Q: How do I force an update?**  
 A: Each platform has an “update,” “refresh,” or “reload blocklists” option; refer to documentation.
 
-**Q: Can I use this with OISD, StevenBlack’s Hosts, or HaGeZi as well?**  
-A: Yes! Many users combine SmartHouse-Blocklist with other reputable lists for layered privacy protection.
-
 **Q: How often is this blocklist updated?**  
 A: The list is updated as needed or when new domains are discovered/reported.
 
@@ -191,16 +175,6 @@ A: The list is updated as needed or when new domains are discovered/reported.
 - Device/vendor comments: Specific comments in the blocklist help with troubleshooting or custom adjustments.
 - Safe, privacy-first: Focused on blocking tracking/ad domains while minimizing disruption to core smart device features.
 - User whitelisting encouraged: If issues occur, whitelist the domain, report it, and help improve the blocklist.
-- Growth-focused: All major device classes and brands have dedicated sections, including emerging smart home tech—making the list easy to maintain and expand.
-
----
-
-## Related Projects
-
-- **[StevenBlack’s Hosts](https://github.com/StevenBlack/hosts):** Reputable composite hosts file merging multiple ad, tracker, and malware lists.
-- **[HaGeZi Multi PRO++ Blocklist](https://github.com/hagezi/dns-blocklists):** Feature-rich and modular DNS blocklist for precise filtering.
-- **[OISD Blocklist](https://oisd.nl/):** Community-powered, extensive ad/tracker blocklist for various platforms.
-- **[Firebog’s Recommended Lists](https://firebog.net/):** Curated selection of the best privacy and ad/tracker blocklists with detailed explanations.
 
 ---
 
@@ -208,8 +182,8 @@ A: The list is updated as needed or when new domains are discovered/reported.
 
 - Contributions welcome: Open an issue or submit a pull request.
 - Code of Conduct: Please be respectful and constructive in all communications.
-- Help us grow: If you notice a missing tracker/telemetry domain for a smart device, create an issue or PR for rapid inclusion!
 
 ---
 
-Enjoy your smart home—on your terms.
+**Smart Homes, No Surveillance**
+
