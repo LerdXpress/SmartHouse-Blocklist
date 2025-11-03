@@ -192,7 +192,6 @@
 
 ! ================= OPERATING SYSTEMS & PLATFORM TELEMETRY =================
 ! -- Apple (telemetry only) --
-||xp.apple.com^
 ||weather-analytics-events.apple.com^
 ||metrics.icloud.com^
 ||metrics.apple.com^
